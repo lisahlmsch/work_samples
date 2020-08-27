@@ -19,6 +19,9 @@ I used a whats app chat history to analyse the patterns in the conversations. I 
 
 [-> files](https://github.com/lisahlmsch/work_samples/tree/master/natural%20language%20processing)
 
+## NLP Word Prediction
+This folder contains the Milestone Report for the Coursera Data Science Capstone project. The goal of this project is to create a text-prediction web application with R Shiny, that predicts the next word based on previous input using a natural language processing model.
+
 ## Stream processing
 I create a stream processing application using the AWR.Kinesis R package's daemon + Redis to record the overall amount of coins exchanged on Binance (per symbol) in the most recent micro-batch.
 Then I created a Jenkins job that reads from this Redis cache and prints the overall value (in USD) of the transactions -- based on the coin prices reported by the Binance API at the time of request. 
